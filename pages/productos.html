@@ -94,7 +94,7 @@
                     Some quick example text to build on the card title and make up
                     the bulk of the card's content.
                   </p>
-                  <button class="btn btn-primary" type="button" disabled>Ver mas</button>
+                  <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modalProductoPanFrances">Ver mas</button>
                 </div>
               </div>
             </aside>
@@ -255,23 +255,45 @@
         </section>
         <!-- modal de medialuna -->
         <div class="modal fade" id="modalProducto" tabindex="-1" aria-labelledby="modalProductoLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="modalProductoLabel">Medialunas</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <img src="../img/productos/Croissant_00018_portfolio1.jpg" alt="medialunas" class="w-100">
-                <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, in. Corrupti aperiam, quaerat perferendis dicta ad, porro neque aut ea, optio ratione quos dolor blanditiis ullam dolorum iusto voluptate quisquam sapiente enim delectus inventore natus illum eius odio? Aliquam saepe earum, dolores omnis pariatur ducimus voluptatum exercitationem natus totam. Placeat?</p>
-                <p>Precio: <b>$60</b></p>
-                <p>Precio: <span class="fw-bold">$60</span></p>
-                <p>Precio: <strong>$60</strong></p>
-                <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">salir</button>
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalProductoLabel">Medialunas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="../img/productos/Croissant_00018_portfolio1.jpg" alt="medialunas" class="w-100">
+                  <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, in. Corrupti aperiam, quaerat perferendis dicta ad, porro neque aut ea, optio ratione quos dolor blanditiis ullam dolorum iusto voluptate quisquam sapiente enim delectus inventore natus illum eius odio? Aliquam saepe earum, dolores omnis pariatur ducimus voluptatum exercitationem natus totam. Placeat?</p>
+                  <p>Precio: <b>$60</b></p>
+                  <p>Precio: <span class="fw-bold">$60</span></p>
+                  <p>Precio: <strong>$60</strong></p>
+                  <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">salir</button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+            
+          <!-- modal de pan frances -->
+        <div class="modal fade" id="modalProductoPanFrances" tabindex="-1" aria-labelledby="modalProductoLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalProductoLabel">Pan Frances</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="../img/productos/pan.jpg" alt="pan frances" class="w-100">
+                  <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, in. Corrupti aperiam, quaerat perferendis dicta ad, porro neque aut ea, optio ratione quos dolor blanditiis ullam dolorum iusto voluptate quisquam sapiente enim delectus inventore natus illum eius odio? Aliquam saepe earum, dolores omnis pariatur ducimus voluptatum exercitationem natus totam. Placeat?</p>
+                  <p>Precio: <b>$180</b></p>
+                  <p>Precio: <span class="fw-bold">$180</span></p>
+                  <p>Precio: <strong>$180</strong></p>
+                  <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">salir</button>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+
       </main>
       <footer class="bg-dark py-4">
         <div class="container">
